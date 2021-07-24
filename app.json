@@ -1,0 +1,19 @@
+{
+  "name": "Daptin",
+  "description": "Backend as a service",
+  "keywords": [
+    "daptin",
+    "go",
+    "process management"
+  ],
+  "image": "heroku/go:1.14",
+  "engines": {
+    "node": "6.9.4"
+  },
+  "scripts": {
+    "heroku-postbuild": "echo This runs afterwards."
+  },
+  "mount_dir": "src/github.com/daptin/daptin",
+  "website": "https://dapt.in",
+  "repository": "http://github.com/daptin/daptin"
+}
